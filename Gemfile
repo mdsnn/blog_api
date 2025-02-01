@@ -44,6 +44,8 @@ group :development, :test do
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
+  gem 'active_model_serializers' # For serialization
+  gem 'rack-cors' # For handling CORS
 end
 
 
